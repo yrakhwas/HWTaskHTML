@@ -1,0 +1,86 @@
+article {
+    width: 90%;
+    margin: auto;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+header {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    font-size: large;
+    padding: 10px;
+}
+
+h3::before,
+h4::before {
+    content: "| ";
+    color: black;
+    font-size: larger;
+    font-weight: bold;
+}
+
+h4~hr,
+h3~hr {
+    margin-top: 2%;
+}
+
+.OpText {
+    /*opacity: 90%;*/
+    color: rgb(175, 175, 175);
+    margin-left: 5%;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+}
+
+sup {
+    text-decoration: underline;
+    font-weight: lighter;
+}
+
+.redColor {
+    background-color: #F00;
+    color: white;
+    padding-inline: 2px;
+    font-weight: bolder;
+}
+
+.yellowColor {
+    background-color: #ff0;
+    color: black;
+    padding-inline: 2px;
+    font-weight: bolder;
+}
+
+.blueColor {
+    background-color: #00f;
+    color: white;
+    padding-inline: 2px;
+    font-weight: bolder;
+}
+
+.orangeColor {
+    background-color: #F90;
+    color: white;
+    padding-inline: 2px;
+    font-weight: bolder;
+}
+
+.greenColor {
+    background-color: #0f0;
+    color: white;
+    padding-inline: 2px;
+    font-weight: bolder;
+}
+
+.violetColor {
+    background-color: #f0f;
+    color: white;
+    padding-inline: 2px;
+    font-weight: bolder;
+}
